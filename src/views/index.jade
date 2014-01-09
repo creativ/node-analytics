@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .row.span8.offset2
+    h1 Analytics
+    p.lead.muted
+      | Analytics data for last two weeks
+    table.table
+      thead
+        tr
+          th= "Browser"
+          th= "Platform"
+          th= "Type"
+          th= "Path"
+          th= "Language"
+          th= "Time"
+      tbody
+        each track in userTracks
+          tr
+            td= track.browser
+            td= track.platform
+            td= track.type
+            td= track.path
+            td= track.language
+            td= track.tracked
+

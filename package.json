@@ -1,0 +1,25 @@
+{
+  "name": "analytics",
+  "version": "0.0.1",
+  "description": "NodeJS analytics app",
+  "main": "index.js",
+  "dependencies": {
+    "coffee-script": "~1.5.0",
+    "connect-assets": "~2.4.x",
+    "express": "~3.1.0",
+    "express-useragent": "~0.0.9",
+    "jade": "*",
+    "mysql": "latest",
+    "node-mysql": "latest",
+    "orm": "~2.1.3",
+    "stylus": "*",
+    "underscore": "~1.5.2",
+    "underscore.string": "~2.3.0"
+  },
+  "devDependencies": {
+    "node-dev": "~0.2.8",
+    "npmedge": "~0.1.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
